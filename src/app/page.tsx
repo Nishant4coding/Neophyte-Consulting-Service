@@ -1,6 +1,7 @@
 "use client";
 import Heading from "@/components/custom/Heading";
 import Navbar from "@/components/custom/Navbar";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import OurWorks from "@/components/OurWork";
 import Testimonials from "@/components/Testimonials";
@@ -17,6 +18,7 @@ export default function Home() {
           <WhyChooseUs />
           <OurWorks />
           <Testimonials />
+          <Footer />
         </AnimatePresence>
       </main>
       {/* </div> */}
