@@ -2,6 +2,7 @@
 import Heading from "@/components/custom/Heading";
 import Navbar from "@/components/custom/Navbar";
 import Hero from "@/components/Hero";
+import OurWorks from "@/components/OurWork";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import { AnimatePresence } from "framer-motion";
 
@@ -13,6 +14,7 @@ export default function Home() {
           <Navbar />
           <Hero />
           <WhyChooseUs/>
+          <OurWorks/>
         </AnimatePresence>
       </main>
       {/* </div> */}

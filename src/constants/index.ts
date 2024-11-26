@@ -47,3 +47,19 @@ export const WhyChoose = [
     icon: "/why/transparent.png",
   },
 ];
+
+
+export const worksData = [
+  {
+    title: "App Development",
+    description:
+      "Write a prompt, hit enter, and let AI do the heavy lifting. Having an AI tool built-in allows you to quickly and easily generate the exact code you need for your project.",
+    image: "/work/web.png",
+  },
+  {
+    title: "Web Development",
+    description:
+      "Write a prompt, hit enter, and let AI do the heavy lifting. Having an AI tool built-in allows you to quickly and easily generate the exact code you need for your project.",
+    image: "/work/app.png", 
+  },
+];
