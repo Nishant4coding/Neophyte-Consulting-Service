@@ -1,5 +1,4 @@
 "use client";
-import Heading from "@/components/custom/Heading";
 import Navbar from "@/components/custom/Navbar";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
