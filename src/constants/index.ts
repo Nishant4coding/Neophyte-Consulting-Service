@@ -63,3 +63,47 @@ export const worksData = [
     image: "/work/app.png", 
   },
 ];
+
+
+export const testimonials = [
+  {
+    id: 1,
+    name: "Mr. Avinash Singh",
+    role: "CEO, Synergy Innovations Pvt. Ltd.",
+    image: "/testimonials/1.png",
+    quote:
+      "It was a great experience. From start to finish, NeoPhyte Consulting is very supportive and kind. Team NCS is extremely professional and highly involved throughout the whole process by giving accurate information when needed.",
+  },
+  {
+    id: 2,
+    name: "Mr. Shivam Katiyar",
+    role: "CTO, Apex Retail",
+    image: "/testimonials/1.png",
+    quote:
+      "Wow! I couldn't be happier with the service provided by NeoPhyte Consulting! From the moment I reached out to them, they were incredibly professional, attentive, and knowledgeable. They went above and beyond to understand my needs and delivered exceptional results in record time. I highly recommend NeoPhyte Consulting to anyone looking for top-notch expertise and outstanding service!",
+  },
+  {
+    id: 3,
+    name: "Mr. Avinash Singh",
+    role: "CEO, Synergy Innovations Pvt. Ltd.",
+    image: "/testimonials/1.png",
+    quote:
+      "It was a great experience. From start to finish, NeoPhyte Consulting is very supportive and kind. Team NCS is extremely professional and highly involved throughout the whole process by giving accurate information when needed.",
+  },
+  {
+    id: 4,
+    name: "Mr. Shivam Katiyar",
+    role: "CTO, Apex Retail",
+    image: "/testimonials/1.png",
+    quote:
+      "Wow! I couldn't be happier with the service provided by NeoPhyte Consulting! From the moment I reached out to them, they were incredibly professional, attentive, and knowledgeable. They went above and beyond to understand my needs and delivered exceptional results in record time. I highly recommend NeoPhyte Consulting to anyone looking for top-notch expertise and outstanding service!",
+  },
+  {
+    id: 5,
+    name: "Mr. Shivam Katiyar",
+    role: "CTO, Apex Retail",
+    image: "/testimonials/1.png",
+    quote:
+      "Wow! I couldn't be happier with the service provided by NeoPhyte Consulting! From the moment I reached out to them, they were incredibly professional, attentive, and knowledgeable. They went above and beyond to understand my needs and delivered exceptional results in record time. I highly recommend NeoPhyte Consulting to anyone looking for top-notch expertise and outstanding service!",
+  },
+];
