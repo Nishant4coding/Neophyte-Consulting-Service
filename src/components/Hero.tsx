@@ -34,6 +34,7 @@ function Hero() {
             className=""
             width={900}
             height={900}
+            loading="lazy"
           />
         </div>
       </div>
