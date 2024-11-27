@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Section from "./custom/Section";
+import Navbar from "./custom/Navbar";
 
 function Hero() {
   return (
-    <Section className="bg-[url('/hero_bg.png')] bg-opacity-80 bg-cover bg-center ">
+    <Section className="bg-[url('/hero_bg.png')] bg-opacity-80 bg-cover bg-center min-h-fit">
       <div className=" text-white flex flex-col md:flex-row items-center justify-between">
         <div className="max-w-[50vw] text-center md:text-left ">
           <h2 className="text-white font-semibold text-xl pb-10">

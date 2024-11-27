@@ -9,7 +9,13 @@ function Navbar() {
       <div className=" mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <Image src="/logo.png" alt="logo" width={150} height={150} />
+            <Image
+              src="/logo.png"
+              alt="logo"
+              width={150}
+              height={100}
+              className="w-full h-full"
+            />
           </div>
 
           <div className="flex md:hidden">
@@ -21,13 +27,12 @@ function Navbar() {
             </button>
           </div>
 
-          {/* Navbar Links */}
           <div
             className={`${
               menuOpen ? "block" : "hidden"
             } md:flex md:items-center`}
           >
-            <ul className="flex flex-col md:flex-row md:space-x-6 bg-[#e5e7e0]/40  p-2 px-4 rounded-lg">
+            <ul className="flex flex-col md:flex-row md:space-x-16 bg-[#e5e7e0]/40  py-4 px-4 rounded-lg text-xl ">
               <li>
                 <a href="#" className="text-white hover:text-[#dcfd82]">
                   Home
@@ -35,7 +40,7 @@ function Navbar() {
               </li>
               <li>
                 <a href="#" className="text-white hover:text-[#dcfd82]">
-                  About
+                  About Us
                 </a>
               </li>
               <li>
@@ -45,15 +50,19 @@ function Navbar() {
               </li>
               <li>
                 <a href="#" className="text-white hover:text-[#dcfd82]">
-                  Contact
+                  Blogs
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-white hover:text-[#dcfd82]">
+                  Career
                 </a>
               </li>
             </ul>
           </div>
 
-          {/* Contact Button */}
           <div className="hidden md:block border-1 border-[#dcfd82] pb-2">
-            <button className=" text-white px-4 py-2 border-1 border-[#dcfd82] ">
+            <button className=" text-white px-4 py-2 border-2 rounded-md border-[#dcfd82] text-xl">
               Contact
             </button>
           </div>
@@ -63,7 +72,7 @@ function Navbar() {
       {/* Mobile Contact Button */}
       {menuOpen && (
         <div className="md:hidden px-4 py-2">
-          <button className="w-full bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+          <button className="w-full bg-blue-500 text-black px-4 py-2 rounded hover:bg-blue-600">
             Contact
           </button>
         </div>
