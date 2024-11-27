@@ -5,14 +5,16 @@ import Image from "next/image";
 function WhyOurProcess() {
   return (
     <Section className=" text-white py-16 px-8">
-      <h2 className="lg:text-5xl text-2xl font-bold text-center mb-12">
+      <h2 className="lg:text-5xl text-4xl font-bold text-center pb-12">
         Why Our Process Stands Out?
       </h2>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-12 ">
         <div className="border-gray-400 border-2 p-6 rounded-lg shadow-lg flex flex-col justify-between">
           <div>
-            <h3 className="text-3xl font-semibold mb-4">Collab with us</h3>
-            <p className="text-gray-400 text-xl">
+            <h3 className="lg:text-3xl text-xl font-semibold mb-4">
+              Collab with us
+            </h3>
+            <p className="text-gray-400">
               We offer a diverse range of products and services across various
               industries to meet your specific needs.
             </p>
@@ -35,7 +37,7 @@ function WhyOurProcess() {
         </div>
 
         <div className="border-gray-400 border-2 p-6 rounded-lg shadow-lg ">
-          <h3 className="text-2xl font-semibold mb-4">
+          <h3 className="lg:text-3xl text-xl font-semibold mb-4">
             Collaborative Approach
           </h3>
           <p className="text-gray-400 mb-4">
@@ -76,7 +78,9 @@ function WhyOurProcess() {
         </div>
 
         <div className="border-gray-400 border-2 p-6 rounded-lg shadow-lg">
-          <h3 className="text-2xl font-semibold mb-4">Attention to Detail</h3>
+          <h3 className="lg:text-3xl text-xl font-semibold mb-4">
+            Attention to Detail
+          </h3>
           <p className="text-gray-400 mb-4">
             Focused on delivering high-quality, user-centric solutions.
           </p>

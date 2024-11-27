@@ -31,12 +31,12 @@ export default function Testimonials() {
 
   return (
     <Section className="bg-custom-bg">
-      <h2 className="text-5xl font-bold text-white text-center">
+      <h2 className="lg:text-5xl text-4xl font-bold text-white text-center">
         See What our clients say about us
       </h2>
 
       <div className="flex-col ">
-        <div className="flex gap-2 items-end justify-end px-4 md:px-8 pb-10">
+        <div className="flex gap-2 lg:items-end items-center lg:justify-end justify-center px-4 md:px-8 pb-10">
           <button
             onClick={prevSlide}
             className="p-4 rounded-full bg-white transition-colors"

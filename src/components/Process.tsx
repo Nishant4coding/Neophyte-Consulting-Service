@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Section from "./custom/Section";
 
 export default function Process() {
   const steps = [
@@ -49,13 +50,12 @@ export default function Process() {
   ];
 
   return (
-    <section className="bg-black text-white py-16 px-8">
+    <Section className=" text-white">
       <h2 className="text-4xl font-bold text-center mb-12">Our Process</h2>
       <div className="relative max-w-4xl mx-auto">
-        {/* Vertical timeline */}
-        <div className="absolute top-0 left-1/2 w-1 h-full bg-gray-700 transform -translate-x-1/2"></div>
+        <div className="absolute top-0 left-1/2 w-1 h-full  transform -translate-x-1/2 lg:block hidden"></div>
 
-        <div className="flex flex-col gap-16">
+        <div className="flex flex-col gap-16 justify-start items-start">
           {steps.map((step, index) => (
             <div
               key={step.id}
@@ -63,17 +63,15 @@ export default function Process() {
                 index % 2 === 0 ? "flex-row-reverse" : ""
               }`}
             >
-              {/* Content */}
               <div
                 className={`flex-1 ${
                   index % 2 === 0 ? "text-right pr-8" : "text-left pl-8"
                 }`}
               >
                 <h3 className="text-xl font-semibold">{step.title}</h3>
-                <p className="text-gray-400 mt-2">{step.description}</p>
+                <p className="text-gray-400 mt-2 text-justify">{step.description}</p>
               </div>
-              {/* Step Icon */}
-              <div className="relative z-10">
+              <div className="z-10 ">
                 <div
                   className={`w-12 h-12 ${step.color} rounded-full flex items-center justify-center text-black font-bold`}
                 >
@@ -84,6 +82,6 @@ export default function Process() {
           ))}
         </div>
       </div>
-    </section>
+    </Section>
   );
 }

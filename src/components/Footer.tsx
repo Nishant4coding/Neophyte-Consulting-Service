@@ -4,7 +4,7 @@ import Section from "./custom/Section";
 
 export default function Footer() {
   return (
-    <Section className="bg-zinc-900 min-h-fit text-zinc-400 snap-end">
+    <Section className="bg-[#2F2F2F] lg:min-h-fit text-zinc-400 snap-end">
       <div className="flex flex-col md:flex-row justify-center items-center lg:text-left text-center gap-8 lg:items-start lg:justify-between">
         <div className="">
           <Link href="/">

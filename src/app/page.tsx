@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import OurClients from "@/components/OurClient";
 import OurWorks from "@/components/OurWork";
-import Process from "@/components/Process";
+// import Process from "@/components/Process";
 import OurServices from "@/components/Services";
 import Testimonials from "@/components/Testimonials";
 import WhyChooseUs from "@/components/WhyChooseUs";
@@ -21,12 +21,12 @@ export default function Home() {
           <Hero />
           <WhyChooseUs />
           <OurServices />
-          <Process/>
+          {/* <Process /> */}
           <OurWorks />
           <Testimonials />
-          <WhyOurProcess/>
+          <WhyOurProcess />
           <OurClients />
-          <ContactForm/>
+          <ContactForm />
           <Footer />
         </AnimatePresence>
       </main>
