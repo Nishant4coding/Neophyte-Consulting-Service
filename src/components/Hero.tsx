@@ -13,11 +13,11 @@ function Hero() {
               Neophyte Consulting Service
             </span>
           </h2>
-          <div className="flex flex-col gap-4 pb-8">
+          <div className="flex flex-col gap-4 lg:pb-8 pb-4">
             <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold mb-4">
               A Vision of Your Dreams
             </h1>
-            <p className="text-gray-300 leading-loose lg:text-2xl text-lg text-justify">
+            <p className="text-gray-300 lg:leading-loose leading-relaxed lg:text-2xl text-lg text-justify">
               At Neophyte Consulting Services, we are dedicated to empowering
               businesses through innovative and tailored digital solutions. With
               a team of expert developers, designers, and digital marketers, we
@@ -25,7 +25,7 @@ function Hero() {
               landscape.
             </p>
           </div>
-          <button className=" border-2 rounded-lg border-[#dcfd82] hover:text-black py-4 px-6">
+          <button className=" border-2 rounded-lg border-[#dcfd82] hover:text-black lg:py-4 py-2 px-6">
             Consult Us Now
           </button>
         </div>
